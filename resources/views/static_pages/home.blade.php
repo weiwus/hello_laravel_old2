@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Weibo App</title>
-</head>
-<body>
-  <h1>主页_Home</h1>
-</body>
-</html>
+@extends('layouts.default')
+
+@section('content')
+  <h1>主页-ex layouts</h1>
+@stop
+
+@section('title')
+  主页标题
+@stop
